@@ -267,6 +267,7 @@
               />
             </button>
             <div
+              v-if="scrollUp"
               @click="
                 changeEn();
                 showLgPick();
