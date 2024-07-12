@@ -30,7 +30,7 @@ definePageMeta({
           >
             <p class="max-w-[578px]">
               Fülle dieses Formular aus und erhalte eine E-Mail mit einem
-              Kostenvoranschlag, den du an deine Krankenversicherung senden
+              Kostenvoranschlag, den du an deine Krankenversicherung sendens
               kannst.
             </p>
           </div>
