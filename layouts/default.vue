@@ -220,6 +220,7 @@
                 </div>
               </button>
               <ul
+                v-if="scrollUp"
                 v-show="show"
                 class="flex flex-col gap-y-[16px] px-[24px] py-[20px] text-gray-900 xl:absolute xl:left-[-32px] xl:mt-2 xl:w-[200px] xl:rounded-[16px] xl:bg-white xl:shadow-xl"
               >
