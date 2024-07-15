@@ -3,8 +3,8 @@
     <div class="flex justify-center">
       <img
         class="rounded-full"
-        :src="`_nuxt/assets/avatars/arnet.webp`"
         alt=""
+        :src="'_nuxt/assets' + '/avatars/' + 'avatar' + '.webp'"
       />
     </div>
     <div class="flex flex-col justify-center md:justify-start">

@@ -8,7 +8,7 @@
       />
     </div>
     <div class="md:order-1 md:col-span-1">
-      <h3 class="text-3xl font-bold">
+      <h3 class="text-xl xl:text-3xl md:text-2xl font-bold">
         {{ h3text }}
       </h3>
       <div class="w-full h-[12px] md:h-[16px]"></div>

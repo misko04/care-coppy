@@ -106,68 +106,70 @@ definePageMeta({
               </div>
             </div>
           </div>
-        </div>
-        <div class="w-full h-[32px] md:h-[64px]"></div>
-        <form action="" class="m-auto block w-full xl:max-w-[577px]">
-          <div
-            class="grid grid-cols-1 gap-[16px] md:grid-cols-2 xl:grid-cols-1"
-          >
-            <div class="space-y-[8px]">
-              <div class="relative">
-                <select
-                  name="checkup"
-                  id=""
-                  class="w-full appearance-none rounded-[8px] border border-gray-200 bg-white px-[16px] py-[12px] text-lg font-500 text-gray-900 focus:outline-none"
-                >
-                  <option value="Wähle deinen Check-up">
-                    Wähle deinen Check-up
-                  </option>
-                  <option value="Wähle deinen Check-up">
-                    Wähle deinen Check-up
-                  </option>
-                  <option value="Wähle deinen Check-up">
-                    Wähle deinen Check-up
-                  </option>
-                </select>
-                <div
-                  class="absolute right-[12px] top-[23px] transition-transform w-[10px] flex items-center"
-                >
-                  <img src="/assets/down-gray.png" alt="" />
+
+          <div class="w-full h-[32px] md:h-[64px]"></div>
+          <form action="" class="m-auto block w-full xl:max-w-[577px]">
+            <div
+              class="grid grid-cols-1 gap-[16px] md:grid-cols-2 xl:grid-cols-1"
+            >
+              <div class="space-y-[8px]">
+                <div class="relative">
+                  <select
+                    name="checkup"
+                    id=""
+                    class="w-full appearance-none rounded-[8px] border border-gray-200 bg-white px-[16px] py-[12px] text-lg font-500 text-gray-900 focus:outline-none"
+                  >
+                    <option value="Wähle deinen Check-up">
+                      Wähle deinen Check-up
+                    </option>
+                    <option value="Wähle deinen Check-up">
+                      Wähle deinen Check-up
+                    </option>
+                    <option value="Wähle deinen Check-up">
+                      Wähle deinen Check-up
+                    </option>
+                  </select>
+                  <div
+                    class="absolute right-[12px] top-[23px] transition-transform w-[10px] flex items-center"
+                  >
+                    <img src="/assets/down-gray.png" alt="" />
+                  </div>
                 </div>
               </div>
+              <div class="space-y-[8px]">
+                <input
+                  type="text"
+                  placeholder="Vorname"
+                  name="firstName"
+                  class="w-full appearance-none rounded-[8px] border border-gray-200 bg-white px-[16px] py-[12px] text-lg font-500 text-gray-900 focus:outline-none"
+                />
+              </div>
+              <div class="space-y-[8px]">
+                <input
+                  type="text"
+                  placeholder="Nachname"
+                  class="w-full appearance-none rounded-[8px] border border-gray-200 bg-white px-[16px] py-[12px] text-lg font-500 text-gray-900 focus:outline-none"
+                />
+              </div>
+              <div class="space-y-[8px]">
+                <input
+                  type="email"
+                  placeholder="Deine E-Mail"
+                  class="w-full appearance-none rounded-[8px] border border-gray-200 bg-white px-[16px] py-[12px] text-lg font-500 text-gray-900 focus:outline-none"
+                />
+              </div>
             </div>
-            <div class="space-y-[8px]">
-              <input
-                type="text"
-                placeholder="Vorname"
-                name="firstName"
-                class="w-full appearance-none rounded-[8px] border border-gray-200 bg-white px-[16px] py-[12px] text-lg font-500 text-gray-900 focus:outline-none"
-              />
+
+            <div class="w-full h-[32px] md:h-[64px]"></div>
+            <div class="flex justify-center">
+              <button
+                class="block bg-blue-600 text-white rounded-full py-[11px] px-[23px]"
+              >
+                Kostenvoranschlag senden
+              </button>
             </div>
-            <div class="space-y-[8px]">
-              <input
-                type="text"
-                placeholder="Nachname"
-                class="w-full appearance-none rounded-[8px] border border-gray-200 bg-white px-[16px] py-[12px] text-lg font-500 text-gray-900 focus:outline-none"
-              />
-            </div>
-            <div class="space-y-[8px]">
-              <input
-                type="email"
-                placeholder="Deine E-Mail"
-                class="w-full appearance-none rounded-[8px] border border-gray-200 bg-white px-[16px] py-[12px] text-lg font-500 text-gray-900 focus:outline-none"
-              />
-            </div>
-          </div>
-          <div class="w-full h-[32px] md:h-[64px]"></div>
-          <div class="flex justify-center">
-            <button
-              class="block bg-blue-600 text-white rounded-full py-[11px] px-[23px]"
-            >
-              Kostenvoranschlag senden
-            </button>
-          </div>
-        </form>
+          </form>
+        </div>
         <div class="w-full h-[32px] md:h-[64px]"></div>
       </section>
       <section>

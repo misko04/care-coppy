@@ -91,7 +91,7 @@
 
         <div class="flex items-center space-x-[24px] xl:space-x-[16px]">
           <div
-            class="bg-blue-600 text-white h-8 rounded-2xl text-sm items-center justify-center text-center py-[6px] px-[12px] font-sans hidden xl:block"
+            class="bg-blue-600 text-white h-8 rounded-2xl text-sm items-center justify-center text-center py-[6px] px-[12px] font-sans"
           >
             <a href="https://booking.care.me/ch-de/locations/"
               >Check-up buchen</a
@@ -248,7 +248,7 @@
 
         <div class="flex items-center space-x-[24px] xl:space-x-[16px]">
           <div
-            class="bg-blue-600 text-white h-8 rounded-2xl text-sm items-center justify-center text-center py-[6px] px-[12px] font-sans hidden xl:block"
+            class="bg-blue-600 text-white h-8 rounded-2xl text-sm items-center justify-center text-center py-[6px] px-[12px] font-sans"
           >
             <a href="https://booking.care.me/ch-de/locations/"
               >Check-up buchen</a
@@ -300,9 +300,10 @@
               </div>
             </div>
           </div>
+
           <button class="h-[32px] w-[32px] xl:hidden" @click="showMenu">
             <div>
-              <img src="/assets/icon-menu-open-white.svg" alt="" />
+              <img src="/assets/icon-menu-open-gray.svg" alt="" />
             </div>
           </button>
         </div>

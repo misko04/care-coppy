@@ -29,7 +29,7 @@
     </section>
     <div class="w-full h-[100px] md:h-[144px] xl:h-[196px]"></div>
     <section class="bg-white">
-      <div class="relative mx-auto md:max-w[672px] xl:max-w-[986px]">
+      <div class="relative mx-auto md:max-w-[672px] xl:max-w-[986px]">
         <div
           class="h-[196px] w-full overflow-hidden md:h-[200px] md:rounded-[16px] xl:h-[248px] xl:rounded-[24px]"
         >
@@ -57,7 +57,7 @@
     <div class="w-full h-[48px] md:h-[64px] xl:h-[128px]"></div>
     <section>
       <div class="mx-auto px-[24px] md:max-w-[672px] md:px-0 xl:max-w-[986px]">
-        <h2 class="text-center text-4xl font-bold">
+        <h2 class="text-center text-2xl font-bold md:text-3xl xl:text-4xl">
           4 einfache Schritte zu besserer Gesundheit
         </h2>
         <div class="w-full h-[32px] md:h-[50px] xl:h-[48px]"></div>

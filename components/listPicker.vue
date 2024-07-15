@@ -17,7 +17,7 @@
             </h1>
           </div>
           <div class="w-full h-[32px] md:h-[64px]"></div>
-        
+
           <div class="relative">
             <button
               @click="showlist(), rotate()"

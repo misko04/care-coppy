@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import { ref } from "vue";  
+import { ref } from "vue";
 var showvideo = ref(false);
 defineProps({
   img: String,
