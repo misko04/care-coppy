@@ -436,11 +436,10 @@
 </template>
 
 <script setup>
-defineProps<{
-  block:{
+defineProps({
+  block: {},
+});
 
-  }
-}>()
 var hower1 = ref(true);
 var hower2 = ref(false);
 var hower3 = ref(false);

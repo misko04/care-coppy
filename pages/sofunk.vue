@@ -3,7 +3,7 @@
     <link href="https://fonts.cdnfonts.com/css/noah" rel="stylesheet" />
   </head>
 
-  <NuxtLayout name="navbar-dark">
+  <NuxtLayout name="navbar-dark" v-editable="block">
     <div class="w-full h-[48px] md:h-[64px] xl:h-[96px]"></div>
     <section>
       <div
@@ -249,6 +249,9 @@
 <script setup>
 definePageMeta({
   layout: false,
+});
+defineProps({
+  block: {},
 });
 </script>
 
