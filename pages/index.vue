@@ -3,7 +3,7 @@
     <link href="https://fonts.cdnfonts.com/css/noah" rel="stylesheet" />
   </head>
   <section class="bg-a mt-[-64px] xl:mt-[-128px] bg-blue-700">
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden" v-editable="block">
       <div class="w-full h-[130px] xl:h-[256px]"></div>
       <div
         class="w-full px-[24px] mx-auto md:px-[48px] md:max-w-[calc(672px+48px+48px)] xl:max-w-[calc(1188px+48px+48px)]"
@@ -436,6 +436,11 @@
 </template>
 
 <script setup>
+defineProps<{
+  block:{
+
+  }
+}>()
 var hower1 = ref(true);
 var hower2 = ref(false);
 var hower3 = ref(false);

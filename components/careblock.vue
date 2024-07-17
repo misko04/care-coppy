@@ -22,6 +22,7 @@
 </template>
 
 <script setup>
+
 defineProps({
   h3text: String,
   ptext: String,

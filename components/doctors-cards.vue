@@ -1,7 +1,11 @@
 <template>
   <div class="flex gap-[16px] md:flex-col md:items-center xl:gap-[24px]">
     <div class="flex justify-center">
-      <img class="rounded-full" alt="" src="/assets/avatar.webp" />
+      <img
+        class="rounded-full"
+        alt=""
+        :src="'_nuxt/assets' + '/avatars/' + img + '.webp'"
+      />
     </div>
     <div class="flex flex-col justify-center md:justify-start">
       <h3 class="text-lg font-bold xl:text-xl md:text-center">
