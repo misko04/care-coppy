@@ -67,7 +67,7 @@
                 class="flex flex-col gap-y-[16px] px-[24px] py-[20px] text-gray-900 xl:absolute xl:left-[-32px] xl:mt-2 xl:w-[200px] xl:rounded-[16px] xl:bg-white xl:shadow-xl"
               >
                 <li>
-                  <NuxtLink to="/">Blutwerte</NuxtLink>
+                  <NuxtLink to="blutwerte">Blutwerte</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/">Warum CARE?</NuxtLink>
@@ -223,7 +223,7 @@
                 class="flex flex-col gap-y-[16px] px-[24px] py-[20px] text-gray-900 xl:absolute xl:left-[-32px] xl:mt-2 xl:w-[200px] xl:rounded-[16px] xl:bg-white xl:shadow-xl"
               >
                 <li>
-                  <NuxtLink to="/">Blutwerte</NuxtLink>
+                  <NuxtLink to="blutwerte">Blutwerte</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/">Warum CARE?</NuxtLink>
@@ -382,6 +382,7 @@
                   >
                     <li>
                       <NuxtLink
+                        to="/blutwerte"
                         class="block max-w-max w-full text-center font-medium duration-300 relative border border-transparent bg-transparent text-black text-2xl"
                       >
                         Blutwerte
@@ -520,7 +521,7 @@
                   <li>So funktioniert's</li>
                   <li>Preise</li>
                   <li>Warum Blutanalyse?</li>
-                  <li>Blutwerte</li>
+                  <li><NuxtLink to="blutwerte">Blutwerte</NuxtLink></li>
                   <li>Versicherung</li>
                   <li>Blog</li>
                 </ul>
